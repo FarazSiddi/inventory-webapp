@@ -21,9 +21,9 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const dbName = "finalExam";
+const dbName = "inventory";
 
-const dbURL = "mongodb://localhost:27017/finalExam";
+const dbURL = "mongodb://localhost:27017/inventory";
 
 var db;
 
